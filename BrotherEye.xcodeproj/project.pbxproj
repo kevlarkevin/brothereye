@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E63E5716FD33500008474C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E63E5616FD33500008474C /* Cocoa.framework */; };
+		79E63E6116FD33500008474C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E63E5F16FD33500008474C /* InfoPlist.strings */; };
+		79E63E6316FD33500008474C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E63E6216FD33500008474C /* main.m */; };
+		79E63E6716FD33500008474C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 79E63E6516FD33500008474C /* Credits.rtf */; };
+		79E63E6A16FD33500008474C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E63E6916FD33500008474C /* AppDelegate.m */; };
+		79E63E6D16FD33510008474C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E63E6B16FD33510008474C /* MainMenu.xib */; };
+		79E63E7516FD33510008474C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E63E7416FD33510008474C /* SenTestingKit.framework */; };
+		79E63E7616FD33510008474C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E63E5616FD33500008474C /* Cocoa.framework */; };
+		79E63E7E16FD33510008474C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E63E7C16FD33510008474C /* InfoPlist.strings */; };
+		79E63E8116FD33510008474C /* BrotherEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E63E8016FD33510008474C /* BrotherEyeTests.m */; };
+		79E63E8C16FD37740008474C /* BrotherEye.icns in Resources */ = {isa = PBXBuildFile; fileRef = 79E63E8B16FD37740008474C /* BrotherEye.icns */; };
+		79E63E8F16FD37EB0008474C /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E63E8E16FD37EB0008474C /* AppController.m */; };
+		79E63E9116FD39A20008474C /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E63E9016FD39A20008474C /* icon_16x16.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E63E7716FD33510008474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E63E4B16FD33500008474C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E63E5216FD33500008474C;
+			remoteInfo = BrotherEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E63E5316FD33500008474C /* BrotherEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrotherEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E63E5616FD33500008474C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		79E63E5916FD33500008474C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		79E63E5A16FD33500008474C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79E63E5B16FD33500008474C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79E63E5E16FD33500008474C /* BrotherEye-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrotherEye-Info.plist"; sourceTree = "<group>"; };
+		79E63E6016FD33500008474C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79E63E6216FD33500008474C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79E63E6416FD33500008474C /* BrotherEye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrotherEye-Prefix.pch"; sourceTree = "<group>"; };
+		79E63E6616FD33500008474C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		79E63E6816FD33500008474C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79E63E6916FD33500008474C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79E63E6C16FD33510008474C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79E63E7316FD33510008474C /* BrotherEyeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrotherEyeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E63E7416FD33510008474C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79E63E7B16FD33510008474C /* BrotherEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrotherEyeTests-Info.plist"; sourceTree = "<group>"; };
+		79E63E7D16FD33510008474C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79E63E7F16FD33510008474C /* BrotherEyeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrotherEyeTests.h; sourceTree = "<group>"; };
+		79E63E8016FD33510008474C /* BrotherEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrotherEyeTests.m; sourceTree = "<group>"; };
+		79E63E8B16FD37740008474C /* BrotherEye.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BrotherEye.icns; sourceTree = SOURCE_ROOT; };
+		79E63E8D16FD37EB0008474C /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		79E63E8E16FD37EB0008474C /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		79E63E9016FD39A20008474C /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_16x16.png; path = ../ImageResources/icon_16x16.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E63E5016FD33500008474C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E63E5716FD33500008474C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E63E6F16FD33510008474C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E63E7516FD33510008474C /* SenTestingKit.framework in Frameworks */,
+				79E63E7616FD33510008474C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E63E4A16FD33500008474C = {
+			isa = PBXGroup;
+			children = (
+				79E63E5C16FD33500008474C /* BrotherEye */,
+				79E63E7916FD33510008474C /* BrotherEyeTests */,
+				79E63E5516FD33500008474C /* Frameworks */,
+				79E63E5416FD33500008474C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E63E5416FD33500008474C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E63E5316FD33500008474C /* BrotherEye.app */,
+				79E63E7316FD33510008474C /* BrotherEyeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E63E5516FD33500008474C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E63E5616FD33500008474C /* Cocoa.framework */,
+				79E63E7416FD33510008474C /* SenTestingKit.framework */,
+				79E63E5816FD33500008474C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79E63E5816FD33500008474C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E63E5916FD33500008474C /* AppKit.framework */,
+				79E63E5A16FD33500008474C /* CoreData.framework */,
+				79E63E5B16FD33500008474C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		79E63E5C16FD33500008474C /* BrotherEye */ = {
+			isa = PBXGroup;
+			children = (
+				79E63E6816FD33500008474C /* AppDelegate.h */,
+				79E63E6916FD33500008474C /* AppDelegate.m */,
+				79E63E6B16FD33510008474C /* MainMenu.xib */,
+				79E63E5D16FD33500008474C /* Supporting Files */,
+				79E63E8D16FD37EB0008474C /* AppController.h */,
+				79E63E8E16FD37EB0008474C /* AppController.m */,
+			);
+			path = BrotherEye;
+			sourceTree = "<group>";
+		};
+		79E63E5D16FD33500008474C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E63E9016FD39A20008474C /* icon_16x16.png */,
+				79E63E8B16FD37740008474C /* BrotherEye.icns */,
+				79E63E5E16FD33500008474C /* BrotherEye-Info.plist */,
+				79E63E5F16FD33500008474C /* InfoPlist.strings */,
+				79E63E6216FD33500008474C /* main.m */,
+				79E63E6416FD33500008474C /* BrotherEye-Prefix.pch */,
+				79E63E6516FD33500008474C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E63E7916FD33510008474C /* BrotherEyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E63E7F16FD33510008474C /* BrotherEyeTests.h */,
+				79E63E8016FD33510008474C /* BrotherEyeTests.m */,
+				79E63E7A16FD33510008474C /* Supporting Files */,
+			);
+			path = BrotherEyeTests;
+			sourceTree = "<group>";
+		};
+		79E63E7A16FD33510008474C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E63E7B16FD33510008474C /* BrotherEyeTests-Info.plist */,
+				79E63E7C16FD33510008474C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E63E5216FD33500008474C /* BrotherEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E63E8416FD33510008474C /* Build configuration list for PBXNativeTarget "BrotherEye" */;
+			buildPhases = (
+				79E63E4F16FD33500008474C /* Sources */,
+				79E63E5016FD33500008474C /* Frameworks */,
+				79E63E5116FD33500008474C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrotherEye;
+			productName = BrotherEye;
+			productReference = 79E63E5316FD33500008474C /* BrotherEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E63E7216FD33510008474C /* BrotherEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E63E8716FD33510008474C /* Build configuration list for PBXNativeTarget "BrotherEyeTests" */;
+			buildPhases = (
+				79E63E6E16FD33510008474C /* Sources */,
+				79E63E6F16FD33510008474C /* Frameworks */,
+				79E63E7016FD33510008474C /* Resources */,
+				79E63E7116FD33510008474C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E63E7816FD33510008474C /* PBXTargetDependency */,
+			);
+			name = BrotherEyeTests;
+			productName = BrotherEyeTests;
+			productReference = 79E63E7316FD33510008474C /* BrotherEyeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E63E4B16FD33500008474C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MacroHatch;
+			};
+			buildConfigurationList = 79E63E4E16FD33500008474C /* Build configuration list for PBXProject "BrotherEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79E63E4A16FD33500008474C;
+			productRefGroup = 79E63E5416FD33500008474C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E63E5216FD33500008474C /* BrotherEye */,
+				79E63E7216FD33510008474C /* BrotherEyeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E63E5116FD33500008474C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E63E6116FD33500008474C /* InfoPlist.strings in Resources */,
+				79E63E6716FD33500008474C /* Credits.rtf in Resources */,
+				79E63E6D16FD33510008474C /* MainMenu.xib in Resources */,
+				79E63E8C16FD37740008474C /* BrotherEye.icns in Resources */,
+				79E63E9116FD39A20008474C /* icon_16x16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E63E7016FD33510008474C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E63E7E16FD33510008474C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79E63E7116FD33510008474C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E63E4F16FD33500008474C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E63E6316FD33500008474C /* main.m in Sources */,
+				79E63E6A16FD33500008474C /* AppDelegate.m in Sources */,
+				79E63E8F16FD37EB0008474C /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E63E6E16FD33510008474C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E63E8116FD33510008474C /* BrotherEyeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E63E7816FD33510008474C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E63E5216FD33500008474C /* BrotherEye */;
+			targetProxy = 79E63E7716FD33510008474C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E63E5F16FD33500008474C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E63E6016FD33500008474C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79E63E6516FD33500008474C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E63E6616FD33500008474C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		79E63E6B16FD33510008474C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E63E6C16FD33510008474C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		79E63E7C16FD33510008474C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E63E7D16FD33510008474C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E63E8216FD33510008474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79E63E8316FD33510008474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79E63E8516FD33510008474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrotherEye/BrotherEye-Prefix.pch";
+				INFOPLIST_FILE = "BrotherEye/BrotherEye-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79E63E8616FD33510008474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrotherEye/BrotherEye-Prefix.pch";
+				INFOPLIST_FILE = "BrotherEye/BrotherEye-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79E63E8816FD33510008474C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrotherEye.app/Contents/MacOS/BrotherEye";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrotherEye/BrotherEye-Prefix.pch";
+				INFOPLIST_FILE = "BrotherEyeTests/BrotherEyeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79E63E8916FD33510008474C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrotherEye.app/Contents/MacOS/BrotherEye";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrotherEye/BrotherEye-Prefix.pch";
+				INFOPLIST_FILE = "BrotherEyeTests/BrotherEyeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E63E4E16FD33500008474C /* Build configuration list for PBXProject "BrotherEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E63E8216FD33510008474C /* Debug */,
+				79E63E8316FD33510008474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E63E8416FD33510008474C /* Build configuration list for PBXNativeTarget "BrotherEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E63E8516FD33510008474C /* Debug */,
+				79E63E8616FD33510008474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E63E8716FD33510008474C /* Build configuration list for PBXNativeTarget "BrotherEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E63E8816FD33510008474C /* Debug */,
+				79E63E8916FD33510008474C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E63E4B16FD33500008474C /* Project object */;
+}
